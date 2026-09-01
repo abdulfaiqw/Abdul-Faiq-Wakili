@@ -6,7 +6,7 @@ class Library {
     const MAX_BOOKS = 3;
 }
 
-echo "Maximum books allowed: " . Library::MAX_BOOKS;
+echo "Maximum books allowed: " . Library::MAX_BOOKS . "<br>";
 
 
 
@@ -26,7 +26,7 @@ StudentCounter::addStudent();
 StudentCounter::addStudent();
 StudentCounter::addStudent();
 
-echo "Total students: " . StudentCounter::$count;
+echo "Total students: " . StudentCounter::$count."<br>";
 
 
 
@@ -54,7 +54,7 @@ $car = new Car();
 $bike = new Bike();
 
 $car->start();
-echo "\n";
+echo "<br>";
 $bike->start();
 
 ?>
